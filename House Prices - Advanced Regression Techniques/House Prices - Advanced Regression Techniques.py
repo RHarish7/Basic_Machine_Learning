@@ -135,12 +135,12 @@ regressor.fit(df_final,sale_price)
 
 #Applying Grid Search
 
-from sklearn import svm, datasets
+'''from sklearn import svm, datasets
 from sklearn.model_selection import GridSearchCV
 parameters = [{'kernel':('linear', 'rbf'), 'C':[1, 10]}]
 svc = svm.SVC()
 grid_search = GridSearchCV(svc, parameters)
-grid_search.fit(df_final,sale_price)
+grid_search.fit(df_final,sale_price)'''
 
 
 Y_pred = regressor.predict(df_final_test)
