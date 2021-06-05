@@ -148,3 +148,4 @@ Y_pred = regressor.predict(df_final_test)
 
 print(Y_pred)
 
+score = regressor.score(df_final_test, Y_pred) 
